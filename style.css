@@ -276,6 +276,11 @@ form{
 
     .ser1, .ser2, .ser3 {
         width: 90%;
+        height: 250px; /* Further increased height for small screens */
+    }
+
+    .hov-txt {
+        bottom: -100%; /* Adjusted to match increased card height */
     }
 
     .contact {
