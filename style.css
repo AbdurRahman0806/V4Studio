@@ -220,3 +220,80 @@ form{
     color: white;
     font-size: 1.2rem;
 }
+
+/* Base Styles Above */
+
+@media screen and (max-width: 425px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .nav-l, .nav-r {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        height: auto;
+        text-align: center;
+    }
+
+    .right, .left {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    .left p {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .serv {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .contain {
+        width: 95%;
+    }
+
+    .pro {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .ser1, .ser2, .ser3 {
+        width: 90%;
+    }
+
+    .contact {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .con-contain {
+        width: 95%;
+    }
+
+    .con-contain input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .footer h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
