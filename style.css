@@ -16,6 +16,7 @@
 .logo h1{
     padding: 0.5rem;
     font-size: 2rem;
+    color: #2A5086;
 }
 .logo h1 span{
     color: #F48030;
@@ -65,5 +66,50 @@ ul li a:hover{
 }
 
 .left h1{
-    margin: 10rem;
+    margin: 2rem;
+    margin-top: 7rem;
+    font-size: 5rem;
+    color: #2A5086;
+}
+
+.left h1 span{
+    color: #F48030;
+    margin: 2rem;
+}
+
+.left p{
+    margin: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+/* --------services------ */
+
+.serv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #2A5086;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain{
+    width: 90%;
+    height: 85%;
+    background: rgb(243, 242, 242);
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px gray;
+
+}
+
+.text h1{
+    font-size: 3rem;
+    margin: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text p{
+    font-size: 1rem;
+    margin: 2rem;
+    margin-top: 0;
 }
