@@ -19,7 +19,7 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars menu-toggle"></i>
         </div>
     </div>
 
@@ -32,7 +32,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora assumenda fuga deleniti quibusdam saepe facilis suscipit! Recusandae, quis, aliquid odit culpa nulla exercitationem ipsam eius maxime omnis cupiditate commodi architecto!
             Est a at pariatur hic maiores, quo praesentium enim cum libero labore? Assumenda neque placeat adipisci voluptate nisi, dignissimos porro reiciendis voluptates voluptatem nihil corrupti fugit architecto deleniti recusandae commodi!
             Quas voluptas delectus quo ratione atque maiores nihil eius saepe sunt soluta sit ad nisi eos natus doloremque excepturi neque placeat tenetur optio, possimus distinctio expedita doloribus. Laudantium, a cumque!
-            Ad consequatur sequi labore nulla earum sed amet vel repellendus. Et, harum, ducimus reprehenderit architecto distinctio odit veniam hic maxime, nemo enim autem eum eveniet iusto animi at reiciendis delectus.</p>
+            </p>
         </div>
     </div>
 
@@ -89,7 +89,14 @@
         <h1>copyright © 2024 V4Studio</h1>
     </div>
 
-    <script herf="script.js". ></script>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navElements = document.querySelector('.nav-elements');
+    
+        menuToggle.addEventListener('click', () => {
+            navElements.classList.toggle('active');
+        });
+    </script>
     <script src="https://kit.fontawesome.com/a9c6675cbe.js" crossorigin="anonymous"></script>
 </body>
 </html>
